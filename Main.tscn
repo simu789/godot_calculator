@@ -1,0 +1,303 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://myscript.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 67.5, 64.5 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 91.5, 65.5 )
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D2" type="Area2D" parent="."]
+position = Vector2( 147, 2 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D2"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D3" type="Area2D" parent="."]
+position = Vector2( 294, -1 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D3"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D4" type="Area2D" parent="."]
+position = Vector2( -1, 141 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D4"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "4"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D5" type="Area2D" parent="."]
+position = Vector2( 146, 141 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D5"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D6" type="Area2D" parent="."]
+position = Vector2( 295, 136 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D6"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D6"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D7" type="Area2D" parent="."]
+position = Vector2( 0, 281 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D7"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D7"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D8" type="Area2D" parent="."]
+position = Vector2( 149, 278 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D8"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D8"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "8"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D9" type="Area2D" parent="."]
+position = Vector2( 298, 276 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D9"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D9"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "9"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D10" type="Area2D" parent="."]
+position = Vector2( 445, -5 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D10"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D10"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D11" type="Area2D" parent="."]
+position = Vector2( 445, 136 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D11"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D11"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "-"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D12" type="Area2D" parent="."]
+position = Vector2( 594, -6 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D12"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D12"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "×"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D13" type="Area2D" parent="."]
+position = Vector2( 593, 137 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D13"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D13"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "÷"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D14" type="Area2D" parent="."]
+position = Vector2( 448, 275 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D14"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D14"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D15" type="Area2D" parent="."]
+position = Vector2( 595, 278 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D15"]
+position = Vector2( 59, 54.5 )
+shape = SubResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D15"]
+margin_right = 10.0
+margin_bottom = 14.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "="
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Area2D16" type="Area2D" parent="."]
+position = Vector2( 743, -8 )
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="Area2D16"]
+margin_left = -6.0
+margin_top = 3.0
+margin_right = 9.0
+margin_bottom = 17.0
+rect_scale = Vector2( 11.9079, 8.48175 )
+text = "CE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D16"]
+position = Vector2( 82, 56 )
+shape = SubResource( 2 )
+
+[connection signal="input_event" from="Area2D" to="Area2D" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D2" to="Area2D2" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D3" to="Area2D3" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D4" to="Area2D4" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D5" to="Area2D5" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D6" to="Area2D6" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D7" to="Area2D7" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D8" to="Area2D8" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D9" to="Area2D9" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D10" to="Area2D10" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D11" to="Area2D11" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D12" to="Area2D12" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D13" to="Area2D13" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D14" to="Area2D14" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D15" to="Area2D15" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="Area2D16" to="Area2D16" method="_on_Area2D_input_event"]
