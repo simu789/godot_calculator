@@ -10,8 +10,8 @@ config_version=4
 
 [application]
 
-config/name="Calculator"
-run/main_scene="res://Main.tscn"
+config/name="電卓"
+run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
 
 [physics]
