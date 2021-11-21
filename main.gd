@@ -10,6 +10,7 @@ var intsum = 0.0
 var ope = "+"
 var equalflag = false
 var onceope = false
+var oncenum = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.

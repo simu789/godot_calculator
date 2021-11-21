@@ -32,6 +32,7 @@ func _on_Button_button_down():
 	elif $Button.text == "CE":
 		ms.num = "0"
 		ms.sum = "0"
+		ms.intsum = 0.0
 		label.text = "0"
 		ms.equalflag = false
 		ms.onceope == false
@@ -42,13 +43,17 @@ func _on_Button_button_down():
 		operator()
 		label.text = str(ms.intsum)
 	elif $Button.text == "=" and ms.equalflag == false and ms.onceope == true:
-		operator()
-		print(ms.intsum)
-		ms.equalflag = true
-		ms.onceope = false
-		label.text = str(ms.intsum)
+		if ms.oncenum == true:
+			operator()
+			print(ms.intsum)
+			ms.equalflag = true
+			ms.onceope = false
+			ms.oncenum = false
+			label.text = str(ms.intsum)
 	else:
 		if ms.equalflag == false:
+			if ms.onceope == true and ms.oncenum == false:
+				ms.oncenum = true
 			ms.num += $Button.text
 			label.text = str(ms.num)
 			print(ms.num)
